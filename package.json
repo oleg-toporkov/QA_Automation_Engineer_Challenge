@@ -5,7 +5,7 @@
   "scripts": {
     "test": "jest test/*.test.ts",
     "allure-report": "allure serve",
-    "allure-cleanup": "rm -rf ./allure-*"
+    "allure-cleanup": "rm -rf ./allure-* && rm -rf ./target"
   },
   "repository": {
     "type": "git",
